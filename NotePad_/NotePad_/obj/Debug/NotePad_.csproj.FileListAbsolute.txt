@@ -1,0 +1,8 @@
+D:\programing\gyorseszkozok\NotePad_\NotePad_\bin\Debug\NotePad_.exe.config
+D:\programing\gyorseszkozok\NotePad_\NotePad_\bin\Debug\NotePad_.exe
+D:\programing\gyorseszkozok\NotePad_\NotePad_\bin\Debug\NotePad_.pdb
+D:\programing\gyorseszkozok\NotePad_\NotePad_\obj\Debug\NotePad_.csproj.AssemblyReference.cache
+D:\programing\gyorseszkozok\NotePad_\NotePad_\obj\Debug\NotePad_.csproj.SuggestedBindingRedirects.cache
+D:\programing\gyorseszkozok\NotePad_\NotePad_\obj\Debug\NotePad_.csproj.CoreCompileInputs.cache
+D:\programing\gyorseszkozok\NotePad_\NotePad_\obj\Debug\NotePad_.exe
+D:\programing\gyorseszkozok\NotePad_\NotePad_\obj\Debug\NotePad_.pdb
