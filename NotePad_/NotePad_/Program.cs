@@ -11,26 +11,30 @@ namespace NotePad_
     {
         static void Main(string[] args)
         {
-            //streamwriter
             string whereFile = @"D:\notes.txt";
-            StreamWriter write = new StreamWriter(whereFile, false, Encoding.Default);
+            StreamWriter write = new StreamWriter(whereFile, true, Encoding.UTF8);
 
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.Title = "NotePad_";
-            Console.WriteLine("I want the text, please!");
-            string text = Console.ReadLine();
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("If you want to save enter --save");
-            string text2 = Console.ReadLine();
+            Console.WriteLine("I want the text, please! If you done enter --save!");
+            string fullText = "";
+
+            
             while (true)
             {
-                if (text2 == "--save")
+                string text = Console.ReadLine();
+                if (text == "--save")
                 {
-                    write.WriteLine(text);
+                    write.WriteLine(fullText);
                     write.Close();
                     break;
                 }
+                else
+                {
+                    fullText += text + "\n";
+                }
             }
+            
 
         }
     }
